@@ -22,7 +22,7 @@ const projects = [
         title: "Scan report Generator ",
         description: "A software application for generating scan reports .",
         images: [
-            "/DUPSjay.png","/DUPSjay.png","/DUPSjay.png"
+            "/DUPSjay.png","/DUPSjay2.png","/DUPSjay3.png"
 
         ],
         technologies: ["HTML", "Javascript", "CSS","Node.js"],
@@ -95,7 +95,7 @@ export default function Projects() {
                         <Slider dots={true} infinite={true} speed={300} slidesToShow={1} slidesToScroll={1}>
                             {selectedProject.images.map((img, index) => (
                                 <div key={index}>
-                                    <img src={img} alt={`Slide ${index}`} className="w-full h-60 object-cover rounded-lg" />
+                                    <img src={img} alt={`Slide ${index}`} className="w-full h-69 object-cover rounded-lg" />
                                 </div>
                             ))}
                         </Slider>

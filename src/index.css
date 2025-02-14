@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.slick-dots li button {
+    background-color: rebeccapurple !important; /* Set the dot color to white */
+    border-radius: 50%; /* Optional: make dots round */
+}
+
+.slick-dots li.slick-active button {
+    background-color: white !important; /* Optional: active dot */
+}

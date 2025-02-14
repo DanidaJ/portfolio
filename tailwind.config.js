@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+
+
   theme: {
     extend: {
       colors: {
@@ -12,6 +14,9 @@ export default {
         "hero-gradient": "linear-gradient(to right, #0a192f, #240046)",
       },
     },
+
+
   },
   plugins: [],
+
 };

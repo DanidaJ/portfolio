@@ -86,8 +86,8 @@ export default function Projects() {
                    overlayClassName="fixed inset-0"
             >
                 {selectedProject && (
-                    <div className="bg-darkBlue p-6 rounded-xl max-w-3xl w-full relative">
-                        <button className="absolute top-3 right-3 text-gray-300 hover:text-white text-xl" onClick={closeModal}>
+                    <div className="bg-darkBlue p-10 rounded-xl max-w-3xl w-full relative">
+                        <button className="absolute top-0.5 right-0.5 text-gray-300 hover:text-white text-xl" onClick={closeModal}>
                             ✖
                         </button>
 
@@ -95,7 +95,7 @@ export default function Projects() {
                         <Slider dots={true} infinite={true} speed={300} slidesToShow={1} slidesToScroll={1}>
                             {selectedProject.images.map((img, index) => (
                                 <div key={index}>
-                                    <img src={img} alt={`Slide ${index}`} className="w-full h-69 object-cover rounded-lg" />
+                                    <img src={img} alt={`Slide ${index}`} className="w-full  object-cover rounded-lg" />
                                 </div>
                             ))}
                         </Slider>

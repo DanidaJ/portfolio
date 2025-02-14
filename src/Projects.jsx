@@ -27,7 +27,7 @@ export default function Projects() {
             id: 3,
             title: "Radiology Appointment Booking",
             description: "A hospital system for scheduling radiology appointments.",
-            image: "public/Avissawella.png",
+            image: "/Avissawella.png",
             //link: "https://yourradiologyapp.com",
         },
     ];

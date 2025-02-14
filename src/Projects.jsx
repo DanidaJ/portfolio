@@ -20,14 +20,14 @@ export default function Projects() {
             id: 2,
             title: "Scan report Generator ",
             description: "A software application for generating scan reports .",
-            image: "/src/assets/DUPSjay.png",
+            image: "public/assets/DUPSjay.png",
             //link: "https://youraiproject.com",
         },
         {
             id: 3,
             title: "Radiology Appointment Booking",
             description: "A hospital system for scheduling radiology appointments.",
-            image: "src/assets/Avissawella.png",
+            image: "public/Avissawella.png",
             //link: "https://yourradiologyapp.com",
         },
     ];

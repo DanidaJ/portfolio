@@ -26,7 +26,7 @@ export default function About() {
 
             {/* Download CV Button */}
             <motion.a
-                href="src/assets/Danida Jayakody CV.pdf" download
+                href="public/Danida Jayakody CV.pdf" download
                 className="bg-purpleGlow px-6 py-3 rounded-lg flex items-center gap-2 text-lg font-medium hover:bg-neonBlue transition"
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}

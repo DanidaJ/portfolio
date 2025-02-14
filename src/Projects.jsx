@@ -86,7 +86,7 @@ export default function Projects() {
                    overlayClassName="fixed inset-0"
             >
                 {selectedProject && (
-                    <div className="bg-darkBlue p-10 rounded-xl max-w-3xl w-full relative">
+                    <div className="bg-darkBlue p-10 rounded-xl max-w-2xl w-full relative">
                         <button className="absolute top-0.5 right-0.5 text-gray-300 hover:text-white text-xl" onClick={closeModal}>
                             ✖
                         </button>

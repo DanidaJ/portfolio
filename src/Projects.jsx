@@ -13,14 +13,14 @@ export default function Projects() {
             id: 1,
             title: "Cinema Ticket Booking System",
             description: "A web app to book cinema tickets online with seat selection.",
-            image: "https://github.com/DanidaJ/portfolio/blob/c8cd628d5f5e34378677e1dfd6fb7b8ad454b409/src/assets/ticketbooking.png", // Place image in public/images/
+            image: "/ticketbooking.png", // Place image in public/images/
             // link: "https://yourcinemaapp.com",
         },
         {
             id: 2,
             title: "Scan report Generator ",
             description: "A software application for generating scan reports .",
-            image: "public/assets/DUPSjay.png",
+            image: "/DUPSjay.png",
             //link: "https://youraiproject.com",
         },
         {

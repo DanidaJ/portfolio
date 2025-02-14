@@ -13,22 +13,22 @@ export default function Projects() {
             id: 1,
             title: "Cinema Ticket Booking System",
             description: "A web app to book cinema tickets online with seat selection.",
-            image: "/images/cinema-booking.png", // Place image in public/images/
-            link: "https://yourcinemaapp.com",
+            image: "/src/assets/ticketbooking.png", // Place image in public/images/
+            // link: "https://yourcinemaapp.com",
         },
         {
             id: 2,
             title: "Scan report Generator ",
             description: "A software application for generating scan reports .",
-            image: "/images/ai-scheduling.png",
-            link: "https://youraiproject.com",
+            image: "/src/assets/DUPSjay.png",
+            //link: "https://youraiproject.com",
         },
         {
             id: 3,
             title: "Radiology Appointment Booking",
             description: "A hospital system for scheduling radiology appointments.",
             image: "src/assets/Avissawella.png",
-            link: "https://yourradiologyapp.com",
+            //link: "https://yourradiologyapp.com",
         },
     ];
 

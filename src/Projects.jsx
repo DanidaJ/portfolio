@@ -12,7 +12,7 @@ const projects = [
         id: 1,
         title: "Event Booking System",
         description: "A web app to Create Events and let users Book them.",
-        images: ["/ticketbooking.png","/ticketbooking.png","/ticketbooking.png"
+        images: ["/ticketbooking.png","/ticketbooking2.png","/ticketbooking3.png"
 
         ],
         technologies: ["Angular", "Spring Boot", "MySQL"],
@@ -32,7 +32,7 @@ const projects = [
         title: "Radiology Appointment Booking",
         description: "A hospital system for scheduling radiology appointments.",
         images: [
-            "/Avissawella.png","/Avissawella.png","/Avissawella.png"
+            "/Avissawella.png","/Avissawella2.png","/Avissawella3.png"
 
         ],
         technologies: ["PHP", "MYSQL", "HTML", "CSS", ],

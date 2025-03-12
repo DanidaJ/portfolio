@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaDownload } from "react-icons/fa";
+import {  FaDownload } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 export default function About() {
@@ -19,7 +19,7 @@ export default function About() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
             >
-                Hi I'm <span className="text-neonBlue font-semibold">Danida </span>
+                Hi I'm <span className="text-neonBlue font-semibold">Danida</span>.
                 I'm a passionate software engineering undergraduate who loves building beautiful, functional applications.
                 My expertise lies in front-end development, UI/UX, and problem-solving.
             </motion.p>
@@ -35,37 +35,26 @@ export default function About() {
                 <FaDownload /> Download CV
             </motion.a>
 
-            {/* Social Media Icons */}
-            <div className="flex gap-6 mt-8">
-                <motion.a
-                    href="https://github.com/DanidaJ" target="_blank" rel="noopener noreferrer"
-                    className="text-3xl text-gray-400 hover:text-white transition"
-                    whileHover={{ scale: 1.2 }}
-                >
-                    <FaGithub />
-                </motion.a>
-                <motion.a
-                    href="https://www.linkedin.com/in/danida-jayakody-52a884200/" target="_blank" rel="noopener noreferrer"
-                    className="text-3xl text-blue-500 hover:text-white transition"
-                    whileHover={{ scale: 1.2 }}
-                >
-                    <FaLinkedin />
-                </motion.a>
-                <motion.a
-                    href="https://www.instagram.com/danida_j/" target="_blank" rel="noopener noreferrer"
-                    className="text-3xl text-pink-500 hover:text-white transition"
-                    whileHover={{ scale: 1.2 }}
-                >
-                    <FaInstagram />
-                </motion.a>
-                <motion.a
-                     href="mailto:jayakodydanida@gmail.com"
-                    className="text-3xl text-red-400 hover:text-white transition"
-                    whileHover={{ scale: 1.2 }}
-                >
-                    <FaEnvelope />
-                </motion.a>
-            </div>
+            {/* Skills Section */}
+            <motion.div
+                className="mt-10 text-center"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.6, duration: 0.5 }}
+            >
+                <h3 className="text-3xl font-semibold mb-4 text-neonBlue">Skills</h3>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-lg font-medium text-gray-300">
+                    <div className="bg-purpleGlow px-4 py-2 rounded-lg">React</div>
+                    <div className="bg-purpleGlow px-4 py-2 rounded-lg">Angular</div>
+                    <div className="bg-purpleGlow px-4 py-2 rounded-lg">Spring Boot</div>
+                    <div className="bg-purpleGlow px-4 py-2 rounded-lg">Flask</div>
+                    <div className="bg-purpleGlow px-4 py-2 rounded-lg">Python</div>
+                    <div className="bg-purpleGlow px-4 py-2 rounded-lg">Java</div>
+                    <div className="bg-purpleGlow px-4 py-2 rounded-lg">MySQL</div>
+                    <div className="bg-purpleGlow px-4 py-2 rounded-lg">Flutter</div>
+
+                </div>
+            </motion.div>
         </div>
     );
 }
